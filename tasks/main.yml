@@ -1,0 +1,5 @@
+---
+- name: Install qemu-guest-agent package
+  ansible.builtin.package:
+    name: qemu-guest-agent
+    state: latest
